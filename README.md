@@ -7,6 +7,6 @@ The data are articles from DBPedia, and the label is the type of the article. Th
 
 > docID    label1,label2,...    word1 word2 word3...
 
-Given the path to testing dataset, `LR20.py` streams through training data from stdin, and produces output in the following format, one line per test sample:
+Given the path to testing dataset, `LR20.py` streams through training data from stdin(`sys.stdin`), and produces output in the following format, one line per test sample:
 
 > label1  probability_label1,label2 probability_label2,...
